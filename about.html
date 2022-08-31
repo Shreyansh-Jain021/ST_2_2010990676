@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University Website</title>
+    <link rel="stylesheet" href="css/mainstyle.css">
+    <script src="js/main.js"></script>
+    <!-- <link rel="stylesheet" href="css/font-awesome.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css"> -->
+    <script src="https://kit.fontawesome.com/0eb73ae323.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="homepage.html"><img src="img\logo.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                <li><a href="homepage.html">HOME</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="courses.html">COURSE</a></li>
+                <li><a href="blog.html">BLOG</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>About Us</h1>
+
+    </section>
+    <!-- ABOUT US CONTENT -->
+    <section class="about-us">
+        <div class="row">
+            <div class="about-us-col">
+                <h1>We are the largest University</h1>
+                <p>Office of Students Affairs weaves the relationship between the intellectual and social life of the students for their growth and development as matured and responsible human beings. It Organises various curricular and extracurricular activities across all around the year and students also represent University in different Zonal, State and National Level Events.
+                <br>
+                <br>
+                Office of Students Affairs promotes mutual contact, a democratic outlook and a spirit of oneness among the students across different schools on Campus. It stresses upon the social, cultural and intellectual development of the students.
+                <br>
+                <br>
+                Office of Students Affairs is an apt platform for the youth talent and tests their creativity in the field of arts, culture and music as well as off-stage events by organizing various competitions. OSA ensures the generation of awareness & consciousness among the students of the events taking place around them with a view to better equipping them as responsible and educated citizens and to build up a healthy students movement. We have 9 units of NSS and NCC -Three wings of defense services – Army, Navy and Airforce are integral part of the mission of OSA which creates among the students a sense of service to the society and duty towards the Country.</p>
+                <a href="" class="hero-btn red-btn">EXPLORE NOW</a>
+            </div>
+            <div class="about-us-col">
+                <img src="img/about.jpg">
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- FOOTER -->
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>At Chitkara University, there is an intensive focus on getting each and every student industry ready. With more than 1500 recruiters visiting our campus every year. Our graduates have the support, resources and facilities they need in a changing world and job market.</p>
+        <div class="icon">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-linkedin"></i>
+        </div>
+    </section>
+
+    <!-- JAVASCRIPT -->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right= "0";
+        }
+        function hideMenu(){
+            navLinks.style.right= "-200px";
+        }
+    </script>
+</body>
+</html>
